@@ -6,18 +6,30 @@
     <description>Recent content on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>test post: from R to the internet</title>
+      <title>Testing out formatting</title>
+      <link>/2020/06/06/testing-out-formatting/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/06/testing-out-formatting/</guid>
+      <description>so here’s some plain text
+how quick does it update
+testthis bullet 2should be block text but it kinda just indents it
+</description>
+    </item>
+    
+    <item>
+      <title>My understanding of Blogdown &amp; Github:</title>
       <link>/2020/05/29/test-post-from-r-to-the-internet/</link>
       <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/2020/05/29/test-post-from-r-to-the-internet/</guid>
-      <description></description>
+      <description>Introduction &amp;amp; PrerequisitesGetting the Blogdown PackageCreating a local siteHave GithubUpload your site to githubInstalling GitAdding git to the computers PATH variablesUpload your site to github, for real this timeHave NetlifyBuild Netlify Site Deploying From GithubIntroduction &amp;amp; PrerequisitesThe My Understanding of series is my attempt at writing concise guides for my future self on how to do complicated or infrequent jobs.</description>
     </item>
     
     <item>
