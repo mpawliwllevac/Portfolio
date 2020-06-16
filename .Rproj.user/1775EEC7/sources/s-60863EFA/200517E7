@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1591791244351.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4033781896",
+    "id" : "200517E7",
+    "lastKnownWriteTime" : 1592350199,
+    "last_content_update" : 1592350199297,
+    "path" : "C:/Users/Matthew/Dropbox/R Working Directory/Portfolio/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "16,1",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

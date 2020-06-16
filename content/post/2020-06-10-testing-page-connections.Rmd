@@ -1,0 +1,18 @@
+---
+title: Testing page connections
+author: Matthew Pawliw-Levac
+date: '2020-06-10'
+slug: testing-page-connections
+categories: []
+draft: TRUE
+tags:
+  - test
+---
+
+this is a [link](/about/)
+
+this is a [resume](/resume/)
+
+this leads to a [pdf](/pdff/) #doesn't work
+
+Can I link to my post? [link]("C:\Users\Matthew\Dropbox\R Working Directory\Portfolio\content\post\2020-05-29-test-post-from-r-to-the-internet.Rmd")

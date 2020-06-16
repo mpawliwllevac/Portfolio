@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on A Hugo website</title>
+    <title>Posts on Matthew Pawliw-Levac</title>
     <link>/post/</link>
-    <description>Recent content in Posts on A Hugo website</description>
+    <description>Recent content in Posts on Matthew Pawliw-Levac</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Testing out formatting</title>
-      <link>/2020/06/06/testing-out-formatting/</link>
-      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      <title>Testing page connections</title>
+      <link>/2020/06/10/testing-page-connections/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/06/06/testing-out-formatting/</guid>
-      <description>so here’s some plain text
-how quick does it update
-testthis bullet 2should be block text but it kinda just indents it
-</description>
+      <guid>/2020/06/10/testing-page-connections/</guid>
+      <description>this is a link
+this is a resume
+this leads to a pdf #doesn’t work
+Can I link to my post? link</description>
     </item>
     
     <item>
-      <title>My understanding of Blogdown &amp; Github:</title>
-      <link>/2020/05/29/test-post-from-r-to-the-internet/</link>
-      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      <title>My Understanding of Blogdown &amp; Github:</title>
+      <link>/2020/06/04/test-post-from-r-to-the-internet/</link>
+      <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/2020/05/29/test-post-from-r-to-the-internet/</guid>
-      <description>Introduction &amp;amp; PrerequisitesGetting the Blogdown PackageCreating a local siteHave GithubUpload your site to githubInstalling GitAdding git to the computers PATH variablesUpload your site to github, for real this timeHave NetlifyBuild Netlify Site Deploying From GithubIntroduction &amp;amp; PrerequisitesThe My Understanding of series is my attempt at writing concise guides for my future self on how to do complicated or infrequent jobs.</description>
+      <guid>/2020/06/04/test-post-from-r-to-the-internet/</guid>
+      <description>Introduction &amp;amp; PrerequisitesGetting the Blogdown PackageCreating a Local SiteHave GithubUpload Your Site to GithubInstalling GitAdding git to the computers PATH variablesUpload your site to github, for real this timeHave NetlifyBuild Netlify Site Deploying From GithubResourcesTutorialsOther resources on blogdownIntroduction &amp;amp; PrerequisitesThe My Understanding of series is my attempt at writing concise guides for my future self on how to do complicated or infrequent jobs.</description>
     </item>
     
     <item>

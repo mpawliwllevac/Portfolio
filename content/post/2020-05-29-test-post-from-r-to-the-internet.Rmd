@@ -1,7 +1,7 @@
 ---
-title: 'My understanding of Blogdown & Github:'
+title: 'My Understanding of Blogdown & Github:'
 author: Matthew
-date: '2020-05-29'
+date: '2020-06-04'
 output:
   blogdown::html_page:
     toc: true
@@ -13,9 +13,10 @@ tags:
 
 # Introduction & Prerequisites
 
-The *My Understanding* of series is my attempt at writing concise guides for my future self on how to do complicated or infrequent jobs. This page is about creating a website using Blogdown from scratch, which I've always found to be a very obtuse process that frequently runs into errors not explained in tutorials/guides. I don't plan on explaining the benefits of blogdown (though look here for that https://bookdown.org/yihui/blogdown/ ) or comparing blogdown to other ways to make website. I'm fairly sure there are objectively easier ways to make a blog or website than using blogdown UNLESS your site is about R. I will also not be demonstrating how to add content or customize the site on this page.
+The *My Understanding* of series is my attempt at writing concise guides for my future self on how to do complicated or infrequent jobs. This page is about creating a website using Blogdown from scratch, which I've always found to be a very obtuse process that frequently runs into errors not explained in tutorials/guides. I don't plan on explaining the benefits of blogdown (though look here for that https://bookdown.org/yihui/blogdown/ ) or comparing blogdown to other ways to make website. I'm fairly sure there are objectively easier ways to make a blog or website than using blogdown UNLESS your site is about R. I will also not be demonstrating how to add content or customize the site on this page. If it ends up such that you do not feel like this guide has been completely helpful I have a resources section at the bottom with other tutorials and information about blogdown. I myself used other tutorials to make this happen in the first place.
 <br>
 If you happen to not be me there are a few things that one should already know how to do before starting this process. The most important of which is already having a solid understanding of R and R Studio. Other than that its mostly making online acounts and pressing buttons.
+
 
 # Getting the Blogdown Package
 Aquiring the blogdown package is as simple as aquiring any R package *install.packages("blogdown")*. You will be asked if you want to install Hugo, say yes because hugo is important. One thing of note is that installing blogdown will give a shiny new 'addins' button with many of the blogdown function (serve site, new post, etc) that you can use as an alternative to running commands.
@@ -26,7 +27,7 @@ install.packages("blogdown")
 
 ```
 
-# Creating a local site
+# Creating a Local Site
 Once blogdown is installed we're going to make a new R studio project. When starting the project in a new/existing directory under 'project type' you'll be able to select 'website using blogdown'. When the project files are created it'll come with a config.toml file that you can make changes to to customize your site. 
 
 1of5 ![](/post/2020-05-29-test-post-from-r-to-the-internet_files/bd1_install_blogdown.png){width=300px}  
@@ -53,7 +54,7 @@ For this step you'll be going to https://github.com/ and making an acount with t
 
 ![](/post/2020-05-29-test-post-from-r-to-the-internet_files/Github site view.png){width=700px}
 
-# Upload your site to github
+# Upload Your Site to Github
 
 Now according to most of the tutorials I looked at this is supposed to be a pretty simple process. However they seem to have left out some steps that caused me problems. I will be mentioning these problems as well as how I managed to evenually kill the problems.
 
@@ -171,8 +172,17 @@ Now if you don't want random giberish as your website url you can fix it (withou
 
 And that's it. You're done!
 
+# Resources
 
+This is a bonus section and has a bunch of resources and tutorials on blogdown in case people don't find this site helpful. If you find that I missed something please let me know.
 
+### Tutorials
+* [Create a Website with R Studio in 15 Minutes!](https://www.youtube.com/watch?v=rFr1OmS7V9Y) by  Nathaniel Raley Woodward
+* [How to make a personal academic website for free using R and the blogdown  package](https://youtu.be/ox_Ue9yzf-0) by  Daniel Quintana
+* [How to build a website with Blogdown in R](https://www.storybench.org/how-to-build-a-website-with-blogdown-in-r/) by Martin Frigaard
+
+### Other resources on blogdown
+[THE book on Blogdown](https://bookdown.org/yihui/blogdown/) by: Yihui Xie, Amber Thomas, Alison Presmanes Hill
 
 
 
