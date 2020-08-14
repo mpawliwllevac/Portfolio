@@ -13,6 +13,8 @@ tags:
 
 This is a thing I made:
 https://mpawliw-levac.shinyapps.io/potionmaster/
+
+<iframe width="600" height="700" frameborder="no" src="https://mpawliw-levac.shinyapps.io/potionmaster/"> </iframe>
  
 **Why did I make it?**  
 I've spent some time at a school board and was looking to emulate a little bit of what they had. Specifically, the dashboards that were being used.
