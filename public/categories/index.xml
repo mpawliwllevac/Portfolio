@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Matthew Pawliw-Levac</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>I Generated</title>
+      <link>/categories/i-generated/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/i-generated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My Understanding</title>
+      <link>/categories/my-understanding/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/my-understanding/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>R</title>

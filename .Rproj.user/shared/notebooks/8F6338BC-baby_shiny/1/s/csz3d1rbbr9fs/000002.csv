@@ -1,0 +1,28 @@
+"0","ui <- basicPage(
+  h1(""Using Reactive""),
+  sliderInput(inputId = ""myslider"",
+              label = ""Slider1"",
+              value = 1, min = 1, max = 20),
+  plotOutput(""plot"")
+)
+server <- function(input, output, session) {
+ 
+  data <- reactive({ # we use data from reactive like a function but we can just have it output the finished product
+     data.frame(test = (rnorm(50) * input$myslider), y = rnorm(50)) 
+    #print(test)
+    #test
+  }) #this combo is called a class closure
+ 
+  output$plot <- renderPlot({
+    ggplot(data(), aes(x=test, y=y))+
+  geom_point()
+    #plot(data(), col = ""red"", pch = 21, bty = ""n"") #plot based on data function made above
+  })
+}
+shinyApp(ui = ui, server = server)
+"
+"2","
+Listening on http://127.0.0.1:6503
+"
+"2","
+"

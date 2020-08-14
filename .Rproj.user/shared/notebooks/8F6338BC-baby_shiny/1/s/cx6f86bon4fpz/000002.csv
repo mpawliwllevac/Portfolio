@@ -1,0 +1,115 @@
+"0","server <- function(input, output, session) {}
+ui <- fluidPage(
+ 
+  titlePanel(""using Tabsets""), # our title
+  sidebarLayout(
+    
+    sidebarPanel(
+      sliderInput(inputId = ""s1"",
+                  label = ""My Slider"",
+                  value = 1, min = 1, max = 20),
+      checkboxGroupInput(""checkGroup"", label = h3(""Race""), 
+    choices = list(""white"" = 1, ""black"" = 2, ""Choice 3"" = 3),
+    selected = 1)
+    ),
+    
+    mainPanel(
+      tabsetPanel(
+        tabPanel(""Tab1"", ""Any text needs to be in quotes""),
+        tabPanel(""Tab2"", ""Second Tab""),
+        tabPanel(""Citations with the blockquote tag"", ""R is Great"")
+      )
+    )
+  )
+)
+shinyApp(ui = ui, server = server)
+"
+"2","
+Listening on http://127.0.0.1:6503
+"
+"2","Rendering content/Shiny_Examples.Rmd
+"
+"1","Building sites â€¦ 
+"
+"1","                   | EN  
+"
+"1","-------------------+-----
+"
+"1","  Pages            | 31  
+"
+"1","  Paginator pages  |  0  
+"
+"1","  Non-page files   | 40  
+"
+"1","  Static files     | 52  
+"
+"1","  Processed images |  0  
+"
+"1","  Aliases          |  0  
+"
+"1","  Sitemaps         |  1  
+"
+"1","  Cleaned          |  0  
+"
+"1","
+"
+"1","Total in 131 ms
+"
+"2","Rendering content/Shiny_Examples.Rmd
+"
+"1","Building sites â€¦ 
+"
+"1","                   | EN  
+"
+"1","-------------------+-----
+"
+"1","  Pages            | 31  
+"
+"1","  Paginator pages  |  0  
+"
+"1","  Non-page files   | 40  
+"
+"1","  Static files     | 52  
+"
+"1","  Processed images |  0  
+"
+"1","  Aliases          |  0  
+"
+"1","  Sitemaps         |  1  
+"
+"1","  Cleaned          |  0  
+"
+"1","
+"
+"1","Total in 124 ms
+"
+"2","Rendering content/Shiny_Examples.Rmd
+"
+"1","Building sites â€¦ 
+"
+"1","                   | EN  
+"
+"1","-------------------+-----
+"
+"1","  Pages            | 31  
+"
+"1","  Paginator pages  |  0  
+"
+"1","  Non-page files   | 40  
+"
+"1","  Static files     | 52  
+"
+"1","  Processed images |  0  
+"
+"1","  Aliases          |  0  
+"
+"1","  Sitemaps         |  1  
+"
+"1","  Cleaned          |  0  
+"
+"1","
+"
+"1","Total in 128 ms
+"
+"2","
+"

@@ -1,0 +1,48 @@
+---
+title: My Understanding of Shiny
+author: Matthew Pawliw-Levac
+date: '2020-08-06'
+draft: TRUE
+slug: my-understanding-of-shiny
+categories:
+  - My Understanding
+tags:
+  - Shiny
+---
+
+What it is- (widget gallery and other references)
+Shiny is a package that allows individuals to build interactive apps or dashboards in R. They can be hosted on a webpage, downloaded on mobile or even attached to installers and deployed onto other PCs that don't even have R. Other software most similar to Shiny are Business Intelligence products like Microsoft's Power BI, or Tableau. My understanding is that the biggest differences between Shiny and other software is the negligible cost (potentially as low as free) and the ease that R can be utilized by it.   
+
+My goal in this post is to give a more of a refresher in using shiny than the most in depth tutorial. I going from the most basic app in the universe to something that a human would want to use. The examples I will be drawing from can be found here [link to github]. If you find that this post isn't helpful to you I will be including many resources and links at the bottom that may be of more use (honestly the official shiny documentation is absolutely fantastic, you should check it out).
+
+In this first example I will present what I'm calling 'the babiest shiny' in that it is technically a shiny app but its basically empty save for a title.
+
+```{r eval=FALSE}
+library(shiny)
+
+server=function(input, output, session) {}
+ui=basicPage("the beginning")
+shinyApp(ui=ui, server=server)
+```
+
+This example has all the compnents to start learning about shiny. First, like in any good scrip we load in our library (I'm going to assume you have the library loaded for future examples).
+
+The **server function** will be holding all of our dynamic elements, plots, variables, data and the like. The session argument isn't strictly necessary unless its called for but we will very quickly be needing it. How the server function works will become more apparent once we have some things for it to do.
+
+The **ui element** is where the interface is described. Its where we'll be putting all of our widgets (such as sliders or radio buttons) for the server function to use, as well as where the plots and other outputs the server gives us will be going. Right now it only has a basic page with some text in it butr we'll be upgrading that soon enough. Its possible to greatly modify the UI with things like HTML tags or CSS if you so desire which gives shiny a huge amount of flexibility.
+
+**shinyApp()** is what runs the ui and server together making us our shiny app. This little bit at the end doesn't get anything added to it but its still important.
+
+In this next example we'll be kicking things up a couple of notches and demonstrating an app that has some of the interesting features you may want to see in a shiny app.
+
+REFER TO SHINY_EXAMPLES.RMD FOR THE EXAMPLES AND BABY_SHINY FOR SOME IDEAS
+
+
+
+
+
+
+
+
+
+

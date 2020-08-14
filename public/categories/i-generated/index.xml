@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I Generated on Matthew Pawliw-Levac</title>
+    <link>/categories/i-generated/</link>
+    <description>Recent content in I Generated on Matthew Pawliw-Levac</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/i-generated/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I Generated: the Potionmaster Teacher&#39;s Dashboard</title>
+      <link>/2020/08/14/i-generated-the-potionmaster-teacher-s-dashboard/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/08/14/i-generated-the-potionmaster-teacher-s-dashboard/</guid>
+      <description>This is a thing I made: https://mpawliw-levac.shinyapps.io/potionmaster/
+Why did I make it?
+I&#39;ve spent some time at a school board and was looking to emulate a little bit of what they had. Specifically, the dashboards that were being used.
+What did I make?
+What I made is a sample dashboard that could be used by a teacher or school staff to help gain deeper knowledge about their students. This could help a teacher potentially see patterns that they wouldn&#39;t have been able to otherwise that they can then adjust their teaching for.</description>
+    </item>
+    
+  </channel>
+</rss>

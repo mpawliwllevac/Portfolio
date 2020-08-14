@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Understanding on Matthew Pawliw-Levac</title>
+    <link>/categories/my-understanding/</link>
+    <description>Recent content in My Understanding on Matthew Pawliw-Levac</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/my-understanding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Understanding of Shiny</title>
+      <link>/2020/08/06/my-understanding-of-shiny/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/08/06/my-understanding-of-shiny/</guid>
+      <description>What it is- (widget gallery and other references) Shiny is a package that allows individuals to build interactive apps or dashboards in R. They can be hosted on a webpage, downloaded on mobile or even attached to installers and deployed onto other PCs that don&#39;t even have R. Other software most similar to Shiny are Business Intelligence products like Microsoft&#39;s Power BI, or Tableau. My understanding is that the biggest differences between Shiny and other software is the negligible cost (potentially as low as free) and the ease that R can be utilized by it.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,15 @@
+"0","server <- function(input, output, session) {}
+ui <- fluidPage(
+ 
+  sidebarLayout(
+    sidebarPanel(""my sidebar""),
+    mainPanel(""my mainpanel"")
+    )
+  )
+shinyApp(ui = ui, server = server)
+"
+"2","
+Listening on http://127.0.0.1:6503
+"
+"2","
+"

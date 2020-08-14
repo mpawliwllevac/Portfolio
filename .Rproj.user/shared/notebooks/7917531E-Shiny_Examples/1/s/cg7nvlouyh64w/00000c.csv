@@ -1,0 +1,35 @@
+"0","server <- function(input, output, session) { #We have server arguments now
+  
+  output$textout1 <- renderPrint({
+    paste(""Currently you've selected groups:"", input$Groupcheck)
+  })
+  
+}
+ui <- fluidPage(
+ 
+  titlePanel(""Example 2""),     # our title
+  sidebarLayout(     #beginning of the sidebar functions (also need sidebarPanel)
+    sidebarPanel(    
+       sliderInput(inputId = ""s1"",     #Our Slider arguments start here
+                             label = ""My Slider"",
+                             value = 1, min = 1, max = 20),
+                 checkboxGroupInput(""Groupcheck"", label = h3(""Groups""), #Our checkbox arguments start here
+    choices = list(""A"", ""B"", ""C"", ""D""),
+    selected = list(""A"", ""B"", ""C"", ""D""))
+    ),
+    
+    mainPanel( #This is the main panel
+      tabsetPanel( #This and tabpanel
+        tabPanel(""Numbers"", textOutput(""textout1"")
+                
+                 ),
+        tabPanel(""Plots"", ""Second Tab"")
+      )
+    )
+  )
+)
+shinyApp(ui = ui, server = server)
+"
+"2","
+Listening on http://127.0.0.1:6503
+"
